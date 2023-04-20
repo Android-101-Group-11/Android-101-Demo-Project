@@ -1,39 +1,36 @@
-<!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
-
-# AND101 Milestone 1 - **Team/App Name**
+# AND101 Milestone 1 - **Group 11 / Carbonator**
 
 Submitted by:
-- **Team Member 1 Name Here**
-- **Team Member 2 Name Here**
-- **etc**
+- **Kenneth Ramos**
+- **Tasneem Iqbal**
+- **Tedman Nguyen**
 
 Time spent: **X** hours spent in total
 
 ## Summary
 
-This document provides an overview, project spec, and wireframes for our team's capstone project: An app that **short description of your app**
+This document provides an overview, project spec, and wireframes for our team's capstone project: An app that **Allows anyone to look up a region and see impact of activities within that region on the environment. Allows users to also calculate their own carbon footprint and see how they’re impacting the environment and climate. App can make suggestions about how users can lessen their carbon footprint and users can use the app later to see if how they’re changes have affected their carbon footprint calculation**
 
-If we had to describe this milestone in three (3) emojis, they would be: **emojis here**
+If we had to describe this milestone in three (3) emojis, they would be: **(: (: (:**
 
 ## Milestone Requirements
 
-<!-- Please be sure to change the [ ] to [x] for any features you completed.  If a feature is not checked [x], you might miss the points for that item! -->
-
 The following REQUIRED features are completed:
 
-- [ ] Creation of GitHub Organization and Group Project Repo
-- [ ] Updated Course Portal group info with Group Name and App Description
+- [X] Creation of GitHub Organization and Group Project Repo
+- [X] Updated Course Portal group info with Group Name and App Description
 
 The following REQUIRED files are included:
 
-- [ ] Included 📄 `brainstorming.md`, which contains:
-  - [ ] Our initial brainstorming ideas (6+ ideas)
-  - [ ] 5-category evaluation of our top 3 ideas
-  - [ ] Final app idea chosen
+- [X] Included 📄 `brainstorming.md`, which contains:
+  - [X] Our initial brainstorming ideas (6+ ideas)
+  - [X] 5-category evaluation of our top 3 ideas
+  - [X] Final app idea chosen
 - [ ] Included 📄 `project_spec.md`, which contains:
-  - [ ] App Overview: Description and evaluation
-  - [ ] App Spec: User features, Chosen API(s), User Interactions
-  - [ ] Wireframe image(s)
+  - [X] App Overview: Description and evaluation
+  - [X] App Spec: User features, Chosen API(s), User Interactions
+  - [X] Wireframe image(s)
+  https://hackmd.io/s/BkyWDc_Mn
 
 The following BONUS features are implemented:
 
