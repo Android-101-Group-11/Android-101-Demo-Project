@@ -28,6 +28,7 @@ The following REQUIRED files are included:
   - [X] Our initial brainstorming ideas (6+ ideas)
   - [X] 5-category evaluation of our top 3 ideas
   - [X] Final app idea chosen
+  https://hackmd.io/yzVa478fS5-nXAJ-z4RT6g
 - [X] Included 📄 `project_spec.md`, which contains:
   - [X] App Overview: Description and evaluation
   - [X] App Spec: User features, Chosen API(s), User Interactions
