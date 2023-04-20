@@ -9,7 +9,9 @@ Time spent: **10** hours spent in total
 
 ## Summary
 
-This document provides an overview, project spec, and wireframes for our team's capstone project: An app that **Allows anyone to look up a region and see impact of activities within that region on the environment. Allows users to also calculate their own carbon footprint and see how they’re impacting the environment and climate. App can make suggestions about how users can lessen their carbon footprint and users can use the app later to see if how they’re changes have affected their carbon footprint calculation**
+This document provides an overview, project spec, and wireframes for our team's capstone project: 
+
+Carbonator is an app that **allows anyone to look up a region and see impact of activities within that region on the environment. Allows users to also calculate their own carbon footprint and see how they’re impacting the environment and climate. App can make suggestions about how users can lessen their carbon footprint and users can use the app later to see if how they’re changes have affected their carbon footprint calculation**
 
 If we had to describe this milestone in three (3) emojis, they would be: **(: (: (:**
 
