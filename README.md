@@ -26,7 +26,7 @@ The following REQUIRED files are included:
   - [X] Our initial brainstorming ideas (6+ ideas)
   - [X] 5-category evaluation of our top 3 ideas
   - [X] Final app idea chosen
-- [ ] Included 📄 `project_spec.md`, which contains:
+- [X] Included 📄 `project_spec.md`, which contains:
   - [X] App Overview: Description and evaluation
   - [X] App Spec: User features, Chosen API(s), User Interactions
   - [X] Wireframe image(s)
@@ -34,7 +34,7 @@ The following REQUIRED files are included:
 
 The following BONUS features are implemented:
 
-- [ ] Added digital wireframe/mockup image(s)
+- [X] Added digital wireframe/mockup image(s)
 - [ ] Added a GIF of an interactive prototype
 
 The following EXTRA features are implemented:
