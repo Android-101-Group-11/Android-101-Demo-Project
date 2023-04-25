@@ -1,7 +1,5 @@
 # AND101 Milestone 1 - **Group 11 / Carbonator**
 
-# ur mom 
-
 Submitted by:
 - **Kenneth Ramos**
 - **Tasneem Iqbal**
