@@ -27,7 +27,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+<<<<<<< Updated upstream
         val calculationActivity = findViewById<Button>(R.id.button1)
+=======
+
+        //Tasneem : This is to go to the next page/activity
+        val calculationActivity = findViewById<Button>(R.id.estimate)
+>>>>>>> Stashed changes
         calculationActivity.setOnClickListener {
             val intent = Intent(this,Calculations::class.java) //you pass the class
             startActivity(intent)
@@ -74,6 +80,7 @@ class MainActivity : AppCompatActivity() {
                 headers: Headers,
                 json: com.codepath.asynchttpclient.callback.JsonHttpResponseHandler.JSON
             ) {
+<<<<<<< Updated upstream
 
                 make = json.jsonObject.getJSONObject("data").getJSONObject("attributes").getString("vehicle_make")
                 make = "Make: " + make
@@ -94,6 +101,11 @@ class MainActivity : AppCompatActivity() {
                 rvCar.adapter = CarAdapter(carListResults)
 
                 //Log.d("Poke list", carListPost.toString())
+=======
+                num = json.jsonObject.getJSONObject("data").getJSONObject("attributes").getDouble("carbon_kg")
+
+                Log.d("co2e", "response successful")
+>>>>>>> Stashed changes
             }
 
             override fun onFailure(

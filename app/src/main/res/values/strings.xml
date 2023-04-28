@@ -18,9 +18,9 @@
 
     <string-array name="miles1">
         <item>Miles</item>
-        <item> &lt; 2000</item>
+        <item> """&lt;""" 2000</item>
         <item>2,000 - 5,0000</item>
-        <item>5,0000 - 10, 0000</item>
+        <item>5,0000 – 10, 0000</item>
         <item>""">""" 10,000</item>
     </string-array>
 

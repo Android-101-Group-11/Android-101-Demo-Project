@@ -5,38 +5,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6FCF97"
+    android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
 
     <TextView
-
         android:id="@+id/co2e"
-        android:layout_width="77dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="16dp"
-        android:text="Hello World!"
+        android:layout_width="229dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="80dp"
+        android:text="CO2 Emissions"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/teal_700"
-        android:text="Estimation"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.84"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.914" />
+    <TextView
+        android:id="@+id/suggestions"
+        android:layout_width="236dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="-100dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="-200dp"
+        android:fontFamily="@font/montserrat_light"
+        android:text="Suggestions"
 
+<<<<<<< Updated upstream
     <androidx.core.widget.NestedScrollView
         android:layout_width="409dp"
         android:layout_height="546dp"
@@ -58,4 +54,28 @@
             android:layout_height="50dp"/>
     </androidx.core.widget.NestedScrollView>
 
+=======
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/co2e"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/co2e" />
+
+    <Button
+        android:id="@+id/estimate"
+        android:layout_width="164dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="608dp"
+        android:layout_marginEnd="32dp"
+        android:text="Estimation"
+        android:backgroundTint="#0A453D"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+>>>>>>> Stashed changes
 </androidx.constraintlayout.widget.ConstraintLayout>
