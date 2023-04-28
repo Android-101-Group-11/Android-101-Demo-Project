@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">carbonator</string>
+    <string-array name="occup1">
+        <item>Occupation</item>
+        <item>Student</item>
+        <item>Employed</item>
+        <item>Freelancer</item>
+        <item>Retired</item>
+    </string-array>
+
+    <string-array name="transport1">
+        <item>Transportation</item>
+        <item>Car</item>
+        <item>Bus</item>
+        <item>Train</item>
+        <item>Plane</item>
+    </string-array>
+
+    <string-array name="miles1">
+        <item>Miles</item>
+        <item> &lt; 2000</item>
+        <item>2,000 - 5,0000</item>
+        <item>5,0000 - 10, 0000</item>
+        <item>""">""" 10,000</item>
+    </string-array>
+
 </resources>
