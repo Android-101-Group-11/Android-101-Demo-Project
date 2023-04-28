@@ -8,17 +8,20 @@ import com.codepath.asynchttpclient.RequestHeaders
 import com.codepath.asynchttpclient.RequestParams
 import okhttp3.Headers
 import android.widget.Button
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 
 class MainActivity : AppCompatActivity() {
     var num: Double = 0.0
-    data class carInfoPost(val postmake: String, val postmodel: String, val postyear: Int, val postemission: Int)
-    private lateinit var carList: MutableList<String>
-    private lateinit var carListPost: MutableList<carInfoPost>
+    data class carInfoPost(val postmake: String, val postmodel: String, val postyear: String, val postemission: String)
+    private lateinit var carList: MutableList<String> //List of starting cars to send
+    private lateinit var carListResults: MutableList<carInfoPost> //list of cars to send to RecyclerView
+    private lateinit var rvCar: RecyclerView
     var make = ""
     var model = ""
-    var year = 0
-    var emission = 0.0
+    var year = ""
+    var emission = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,8 +32,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this,Calculations::class.java) //you pass the class
             startActivity(intent)
         }
+        //Creates the car list and populates it, using the API Call
+        rvCar = findViewById(R.id.car_list)
+        carListResults = mutableListOf()
         createCarList()
-
         for (i in 0 until carList.size) {
             getCO2e(i)
         }
@@ -41,11 +46,11 @@ class MainActivity : AppCompatActivity() {
     private fun getCO2e(i: Int) {
         val client = com.codepath.asynchttpclient.AsyncHttpClient()
         val url = "https://www.carboninterface.com/api/v1/estimates"
-        val apiKey = "YcTh6ZXIQoTvQCCw1sew"
-        val carString = carList[i]
+        val apiKey = "iVb1suaKPAAM8u0t0ApMQ"
+        val carString = carList[i] //sends the particular car into the post request
 
         val requestHeaders = RequestHeaders()
-        requestHeaders["Authorization"] = "Bearer YcTh6ZXIQoTvQCCw1sew"
+        requestHeaders["Authorization"] = "Bearer iVb1suaKPAAM8u0t0ApMQ"
         requestHeaders["Content-Type"] = "application/json"
 
 
@@ -71,14 +76,22 @@ class MainActivity : AppCompatActivity() {
             ) {
 
                 make = json.jsonObject.getJSONObject("data").getJSONObject("attributes").getString("vehicle_make")
+                make = "Make: " + make
                 Log.d("make", make)
                 model = json.jsonObject.getJSONObject("data").getJSONObject("attributes").getString("vehicle_model")
+                model = "Model: " + model
                 Log.d("model", model)
-                year = json.jsonObject.getJSONObject("data").getJSONObject("attributes").getInt("vehicle_year")
-                Log.d("year", year.toString())
-                emission = json.jsonObject.getJSONObject("data").getJSONObject("attributes").getDouble("carbon_kg")
+                year = json.jsonObject.getJSONObject("data").getJSONObject("attributes").getInt("vehicle_year").toString()
+                year = "Year: " + year
+                Log.d("year", year)
+                emission = json.jsonObject.getJSONObject("data").getJSONObject("attributes").getDouble("carbon_kg").toString()
+                emission = "CO2 Emission: " + emission
                 Log.d("emission", emission.toString())
-                //carListPost.add(carInfoPost(make, model, year, emission))
+                carListResults.add(carInfoPost(make, model, year, emission))
+
+                //val adapter = CarAdapter(carListPost)
+                rvCar.layoutManager = LinearLayoutManager(this@MainActivity)
+                rvCar.adapter = CarAdapter(carListResults)
 
                 //Log.d("Poke list", carListPost.toString())
             }
@@ -98,8 +111,8 @@ class MainActivity : AppCompatActivity() {
             "79d22090-4378-41b5-befc-79602216476e",
             "4edb1248-f0bc-4ed2-9b40-4592c9b1c287",
             "4d26cff2-0b7a-44e3-b416-3299f97bba4e",
-            "70c2fe22-6f3e-4f15-a3ca-839e70dfe8e9",
-            "e3ced1d5-f2ad-4baa-a9c2-e94a8d1fc280",
+            //"70c2fe22-6f3e-4f15-a3ca-839e70dfe8e9",
+            //"e3ced1d5-f2ad-4baa-a9c2-e94a8d1fc280",
 
         )
 
