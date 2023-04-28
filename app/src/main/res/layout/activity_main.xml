@@ -8,23 +8,28 @@
     android:background="#6FCF97"
     tools:context=".MainActivity">
 
-<<<<<<< Updated upstream
+
     <TextView
+
+        android:id="@+id/co2e"
         android:layout_width="77dp"
         android:layout_height="45dp"
-        android:id="@+id/co2e"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
         android:text="Hello World!"
-=======
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/teal_700"
-        android:fontFamily="@font/montserrat_light"
         android:text="Estimation"
         android:textColor="@color/black"
         android:textSize="20sp"
->>>>>>> Stashed changes
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.84"

@@ -3,31 +3,35 @@ package com.example.carbonator
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-<<<<<<< Updated upstream
+//<<<<<<< Updated upstream
 import android.util.Log
 import android.widget.TextView
 
 import com.codepath.asynchttpclient.RequestHeaders
 import com.codepath.asynchttpclient.RequestParams
-import okhttp3.FormBody
+
 
 import okhttp3.Headers
-import okhttp3.MediaType
-import okhttp3.MediaType.Companion.toMediaTypeOrNull
-import okhttp3.RequestBody
-import org.json.JSONArray
-=======
+
+//=======
 import android.widget.Button
 
->>>>>>> Stashed changes
-import org.json.JSONObject
+//>>>>>>> Stashed changes
+
 
 class MainActivity : AppCompatActivity() {
     var num: Double = 0.0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-<<<<<<< Updated upstream
+
+
+        val calculationActivity = findViewById<Button>(R.id.button1)
+        calculationActivity.setOnClickListener {
+            val intent = Intent(this,Calculations::class.java) //you pass the class
+            startActivity(intent)
+        }
+//<<<<<<< Updated upstream
         getCO2e()
         val co2e = findViewById<TextView>(R.id.co2e)
         co2e.setText(num.toString())
@@ -83,19 +87,3 @@ class MainActivity : AppCompatActivity() {
 
 
 
-=======
-
-            val calculationActivity = findViewById<Button>(R.id.button1)
-            calculationActivity.setOnClickListener {
-                val intent = Intent(this,Calculations::class.java) //you pass the class
-                startActivity(intent)
-            }
-
-
-
-    }
-
-
-
-}
->>>>>>> Stashed changes
