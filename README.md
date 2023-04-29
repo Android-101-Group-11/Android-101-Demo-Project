@@ -45,13 +45,13 @@ Here's a video that demos all of the app's implemented features:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
 
-Gif created with **Kap**
+Gif created with **your chosen video tool**
 
-Here's a video that demos all of the app's implemented features:
+Here's a gif that demos all of the app's implemented features:
 
 <img src='https://github.com/Android-101-Group-11/Android-101-Demo-Project/blob/main/carbonator.gif' title='Carbonator' width='966' alt='Carbonator' />
 
-VIDEO created with **your chosen video tool**
+Gif created with **Kap**
 
 ## Notes
 
