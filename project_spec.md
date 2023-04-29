@@ -36,6 +36,9 @@
 **Page 2:**
 - Users can calculate emissions of the top selling cars, by inputting the amount of miles they would normally travel in a year. This lets users know how much they would emit if they drove that car. 
 
+**all pages**
+- Custom styling in "activity_calculations.xml" and "car_items.xml"
+
 Stretch Features:
 
 - A stretch feature would allow the user to input data from their own car, by looking up the make and model of the car and the amount of miles traveled. 
