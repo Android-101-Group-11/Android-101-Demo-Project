@@ -12,7 +12,7 @@
 
 ### Description 
 
-** Did you know the average American drives about 14, 263 miles per year? This app helps users learn more about the quantity of carbon emissions from certain cars. The first page shows a view with the top 10 selling cars in the United States, if these cars were driven 15,000 miles annually. The second page allows users to calculate **
+** Did you know the average American drives about 14,263* miles per year? This app helps users learn more about the quantity of carbon emissions from certain cars. The first page shows a view with the top 10 selling cars in the United States, if these cars were driven 15,000 miles annually. The second page allows users to calculate **
 
 ### App Evaluation
 
@@ -67,6 +67,7 @@ https://www.figma.com/file/attvc6XtKLwPz5KbrpTIsN/Prototyping-Example-(Copy)?nod
 
 ## Build Notes
 
+*Miles per year from: https://www.thezebra.com/resources/driving/average-miles-driven-per-year/#states-where-americans-drive-the-least
 Here's a place for any other notes on the app, it's creation 
 process, or what you learned this unit!  
 
