@@ -1,3 +1,50 @@
+
+# AND101 Milestone 2 - **Group 11 / Carbonator**
+
+Submitted by:
+- **Kenneth Ramos**
+- **Tasneem Iqbal**
+- **Tedman Nguyen**
+
+Time spent: **90** hours spent in total
+
+## Summary
+
+This document provides a summary of our project building process for our app, **Carbonator**
+
+Did you know the average American drives about 14, 263 miles per year? This app helps users learn more about the quantity of carbon emissions from certain cars. The first page shows a view with the top 10 selling cars in the United States, if these cars were driven 15,000 miles annually. The second page allows users to calculate
+
+## Milestone Requirements
+
+The following REQUIRED features are completed:
+
+- [X] Assign features to each member of your group
+- [X] Establish a goal time for completing each feature
+
+The following REQUIRED files are included:
+
+- [ ] Updated 📄 `project_spec.md`, which contains:
+  - [X] App Overview (Milestone 1)
+  - [X] App Spec (Milestone 1)
+  - [ ] Checked off 2+ completed features
+  - [ ] 2+ GIFs of build progress
+
+- [ ] Our 🎥 Demo Video
+  - [ ] We have also added the Demo Video Link to the Group Info Form on the course portal.
+
+
+## 🎥 Demo Video
+
+Here's a video that demos all of the app's implemented features:
+
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+
+VIDEO created with **your chosen video tool**
+
+## Notes
+
+_______________________________________________________________________________________
+
 # AND101 Milestone 1 - **Group 11 / Carbonator**
 
 Submitted by:
@@ -11,7 +58,7 @@ Time spent: **10** hours spent in total
 
 This document provides an overview, project spec, and wireframes for our team's capstone project: 
 
-Carbonator is an app that **allows anyone to look up a region and see the impact of activities within that region on the environment. Allows users to also calculate their own carbon footprint and see how they’re impacting the environment and climate. App can make suggestions about how users can lessen their carbon footprint and users can use the app later to see if how they’re changes have affected their carbon footprint calculation**
+**Carbonator is an app that allows anyone to look up a region and see the impact of activities within that region on the environment. Allows users to also calculate their own carbon footprint and see how they’re impacting the environment and climate. App can make suggestions about how users can lessen their carbon footprint and users can use the app later to see if how they’re changes have affected their carbon footprint calculation**
 
 If we had to describe this milestone in three (3) emojis, they would be: **:relaxed: :zany_face: :smile:**
 
