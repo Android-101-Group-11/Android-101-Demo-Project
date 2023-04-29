@@ -37,7 +37,7 @@ The following REQUIRED files are included:
 
 Here's a video that demos all of the app's implemented features:
 
-[![Watch the video](https://i.imgur.com/QSOkhOz.png)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](https://i.imgur.com/QSOkhOz.png)](https://youtu.be/qtJPy8s9TdA)
 
 Gif created with **your chosen video tool**
 
