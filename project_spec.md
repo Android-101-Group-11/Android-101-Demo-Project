@@ -12,17 +12,17 @@
 
 ### Description 
 
-Allows anyone to look up a region and see impact of activities within that region on the environment. Allows users to also calculate their own carbon footprint and see how they're impacting the environment and climate. App can make suggestions about how users can lessen their carbon footprint and users can use the app later to see if how they're changes have affected their carbon footprint calculation
+** Did you know the average American drives about 14, 263 miles per year? This app helps users learn more about the quantity of carbon emissions from certain cars. The first page shows a view with the top 10 selling cars in the United States, if these cars were driven 15,000 miles annually. The second page allows users to calculate **
 
 ### App Evaluation
 
 <!-- Evaluation of your app across the following attributes -->
 
-- **Mobile:** The mobile format would allow people to access this application easier than a website. You can input your transportation method while on the go. A stretch feature would be saving your annual emissions so you can see your data across weeks, months, years. 
+- **Mobile:** The mobile format allows users to access the data of a API on the go. They can reference the emissions of the top selling cars in America. They can also calculate the amount of emissions of those cars, if they were to drive themselves. A stretch feature would allow the user to access data relevant to their own car. 
 - **Story:** In terms of clarity, the number of CO2e emissions may be abstract to the average user. It is possible that we need to break down CO2e score so the average user can understand the impact of their actions on a greater scale. People who use this app will be conscious of their impact on the enviroment, so it will be important to help users understand. For example, "Your activities used a total of ___ CO2e. That's the equivalent of a computer running all day!"
 - **Market:** While it does not provide a service (like Uber) or alleviate an inconvenience (like Amazon), it addresses a niche but growing audience. Potential user base would depend on the amount of people who are interested in preventing climate change. As more people are interested in going green (like how many are switching to electric vehicles) we predict that more and more people will use it. 
-- **Habit:** Could be very habit forming depending on individual interest in climate change. Especially with teams/social feature, but otherwise may only be an app used every so often. 
-- **Scope:** The challenging part will be making the drop down menu. A stretch feature would revolve around allowing the user to conduct a search and the amount of text fields. Given the amount of activities the user can look up, it may difficult to let the user know what activities users can log. And even if users do log in data, there may be additional fields they have to fill out, like what country or state are they located. 
+- **Habit:**Could be very habit forming depending on individual interest in climate change. Especially with teams/social feature, but otherwise may only be an app used every so often. 
+- **Scope:** The challenging part would be to generate information for the user regarding their own car. We would need to know how to make the drop down menu and call the API with the drop down menu. 
 
 ## Product Spec
 
@@ -31,32 +31,28 @@ Allows anyone to look up a region and see impact of activities within that regio
 **Required Features:**
 
 **Page 1:**
-- Users can input their region
-- App provides random list of activities and the CO2e generated
+- Users scroll through the top selling cars in America to learn about the amount of CO2 that each car would release, if driven 15,000 that year. 
 
 **Page 2:**
-- User selects their occupation, mode of transportation, and miles traveled
-- generate the estimated CO2e from activity 
+- Users can calculate emissions of the top selling cars, by inputting the amount of miles they would normally travel in a year. This lets users know how much they would emit if they drove that car. 
 
 Stretch Features:
 
-- Users may use a query to search up an activity
-    - Allows users to reference data for more than just transportation
+- A stretch feature would allow the user to input data from their own car, by looking up the make and model of the car and the amount of miles traveled. 
+- Another stretch feature would be to try to find pictures of the associated cars, but it really depends on the API we find. 
 
 ### 2. Chosen API(s)
 
-- **[Climatiq API](https://www.climatiq.io/docs)**
+- **Carbon Interface: https://docs.carboninterface.com/#/*
+  - **Allows users to look up information from the top selling cars in America**
 
 ### 3. User Interaction
 
 Required Feature
-- **Users can scroll through a list of random data**
-    - Browse different regions and activities and see their CO2e. 
-- **Users may input their region**
-  - Filter the results for the calculation
-- **Users may select different fields**
-  - Fields include occupation, transportation, miles traveled per year.
-  - Allows users to see their estimated annual CO2e 
+- **Users can scroll through a list of the top selling cars in America**
+  - => **Allows users to be more informed about different cars**
+- **Users can input the amount of miles they might travel annually**
+  - => **Users can see how much CO2 they would emit if they drove those cars**
 
 
 ## Wireframes
