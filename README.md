@@ -49,7 +49,8 @@ Gif created with **your chosen video tool**
 
 Here's a gif that demos all of the app's implemented features:
 
-<img src='https://github.com/Android-101-Group-11/Android-101-Demo-Project/blob/main/carbonator.gif' title='Carbonator' width='966' alt='Carbonator' />
+<img src='[https://github.com/Android-101-Group-11/Android-101-Demo-Project/blob/main/carbonator.gif](https://github.com/Android-101-Group-11/Android-101-Demo-Project/blob/main/carbonator.gif)' title='Carbonator' width='966' alt='Carbonator' />
+<img src='' title='Carbonator' width='966' alt='Carbonator' />
 
 Gif created with **Kap**
 
