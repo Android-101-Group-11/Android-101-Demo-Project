@@ -36,8 +36,8 @@
 **Page 2:**
 - Users can calculate emissions of the top selling cars, by inputting the amount of miles they would normally travel in a year. This lets users know how much they would emit if they drove that car. 
 
-**all pages**
-- Custom styling in "activity_calculations.xml" and "car_items.xml"
+**Custom Styling**
+- Custom styling for "activity_calculations.xml" and "car_items.xml"
 
 Stretch Features:
 
