@@ -30,13 +30,13 @@
 
 **Required Features:**
 
-**Page 1:**
+**[X] Page 1: Scrolling through a RecyclerView**
 - Users scroll through the top selling cars in America to learn about the amount of CO2 that each car would release, if driven 15,000 that year. 
 
-**Page 2:**
+**[X] Page 2: Performing a Calculation based on User Input**
 - Users can calculate emissions of the top selling cars, by inputting the amount of miles they would normally travel in a year. This lets users know how much they would emit if they drove that car. 
 
-**Custom Styling**
+**[X] Custom Styling**
 - Custom styling for "activity_calculations.xml" and "car_items.xml"
 
 Stretch Features:
