@@ -43,7 +43,7 @@ Gif created with **your chosen video tool**
 
 Here's a video that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+[<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />](https://youtu.be/qtJPy8s9TdA)
 
 Gif created with **your chosen video tool**
 
