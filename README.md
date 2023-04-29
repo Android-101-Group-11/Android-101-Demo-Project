@@ -36,6 +36,7 @@ The following REQUIRED files are included:
 ## 🎥 Demo Video
 
 Here's a video that demos all of the app's implemented features:
+[![Watch the video](http://i.imgur.com/link/to/your/gif/file.gif)]([https://youtu.be/vt5fpE0bzSY](https://www.youtube.com/watch?v=qtJPy8s9TdA))
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
 
