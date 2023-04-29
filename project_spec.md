@@ -49,10 +49,10 @@ Stretch Features:
 ### 3. User Interaction
 
 Required Feature
-- **Users can scroll through a list of the top selling cars in America**
-  - => **Allows users to be more informed about different cars**
-- **Users can input the amount of miles they might travel annually**
-  - => **Users can see how much CO2 they would emit if they drove those cars**
+- [X] Users can scroll through a list of the top selling cars in America
+  -=> Allows users to be more informed about different cars
+- [X] Users can input the amount of miles they might travel annually
+  -=> Users can see how much CO2 they would emit if they drove those cars
 
 
 ## Wireframes
