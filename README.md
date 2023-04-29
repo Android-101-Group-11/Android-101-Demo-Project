@@ -37,7 +37,7 @@ The following REQUIRED files are included:
 
 Here's a video that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://youtu.be/qtJPy8s9TdA' title='Carbonator Demo' width='' alt='Video Demo' />
 
 Gif created with **your chosen video tool**
 
@@ -49,8 +49,7 @@ Gif created with **your chosen video tool**
 
 Here's a gif that demos all of the app's implemented features:
 
-<img src='[https://github.com/Android-101-Group-11/Android-101-Demo-Project/blob/main/carbonator.gif](https://github.com/Android-101-Group-11/Android-101-Demo-Project/blob/main/carbonator.gif)' title='Carbonator' width='966' alt='Carbonator' />
-<img src='' title='Carbonator' width='966' alt='Carbonator' />
+<img src='https://github.com/Android-101-Group-11/Android-101-Demo-Project/blob/main/carbonator.gif' title='Carbonator' width='966' alt='Carbonator' />
 
 Gif created with **Kap**
 
