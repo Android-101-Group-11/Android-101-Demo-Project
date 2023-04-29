@@ -37,12 +37,8 @@ The following REQUIRED files are included:
 
 Here's a video that demos all of the app's implemented features:
 
-
 [![Watch the video](https://img.youtube.com/vi/qtJPy8s9TdA/default.jpg)](https://youtu.be/qtJPy8s9TdA)
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=qtJPy8s9TdA" target="_blank">
- <img src="http://img.youtube.com/vi/qtJPy8s9TdA/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
-</a>
 
 Gif created with **your chosen video tool**
 
