@@ -43,7 +43,7 @@ Gif created with **your chosen video tool**
 
 Here's a video that demos all of the app's implemented features:
 
-<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://github.com/Android-101-Group-11/Android-101-Demo-Project/blob/main/carbonator2.gif)' title='carbonator2' width='590' alt='carbonator2' />
+<img src='https://github.com/Android-101-Group-11/Android-101-Demo-Project/blob/main/carbonator2.gif' title='carbonator2' width='590' alt='carbonator2' />
 
 Gif created with **your chosen video tool**
 
