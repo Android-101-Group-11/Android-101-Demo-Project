@@ -27,13 +27,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-<<<<<<< Updated upstream
-        val calculationActivity = findViewById<Button>(R.id.button1)
-=======
+
 
         //Tasneem : This is to go to the next page/activity
         val calculationActivity = findViewById<Button>(R.id.estimate)
->>>>>>> Stashed changes
         calculationActivity.setOnClickListener {
             val intent = Intent(this,Calculations::class.java) //you pass the class
             startActivity(intent)
@@ -46,17 +43,17 @@ class MainActivity : AppCompatActivity() {
             getCO2e(i)
         }
         val co2e = findViewById<TextView>(R.id.co2e)
-        co2e.setText(num.toString())
+       // co2e.setText(num.toString())
     }
 
     private fun getCO2e(i: Int) {
         val client = com.codepath.asynchttpclient.AsyncHttpClient()
         val url = "https://www.carboninterface.com/api/v1/estimates"
-        val apiKey = "iVb1suaKPAAM8u0t0ApMQ"
+        val apiKey = "vOuVb2dYAv4sknq4nY05ZA"
         val carString = carList[i] //sends the particular car into the post request
 
         val requestHeaders = RequestHeaders()
-        requestHeaders["Authorization"] = "Bearer iVb1suaKPAAM8u0t0ApMQ"
+        requestHeaders["Authorization"] = "Bearer vOuVb2dYAv4sknq4nY05ZA"
         requestHeaders["Content-Type"] = "application/json"
 
 
@@ -80,7 +77,7 @@ class MainActivity : AppCompatActivity() {
                 headers: Headers,
                 json: com.codepath.asynchttpclient.callback.JsonHttpResponseHandler.JSON
             ) {
-<<<<<<< Updated upstream
+
 
                 make = json.jsonObject.getJSONObject("data").getJSONObject("attributes").getString("vehicle_make")
                 make = "Make: " + make
@@ -101,11 +98,11 @@ class MainActivity : AppCompatActivity() {
                 rvCar.adapter = CarAdapter(carListResults)
 
                 //Log.d("Poke list", carListPost.toString())
-=======
+
                 num = json.jsonObject.getJSONObject("data").getJSONObject("attributes").getDouble("carbon_kg")
 
                 Log.d("co2e", "response successful")
->>>>>>> Stashed changes
+
             }
 
             override fun onFailure(

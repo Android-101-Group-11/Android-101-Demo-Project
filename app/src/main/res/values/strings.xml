@@ -9,19 +9,25 @@
     </string-array>
 
     <string-array name="transport1">
-        <item>Transportation</item>
-        <item>Car</item>
-        <item>Bus</item>
-        <item>Train</item>
-        <item>Plane</item>
+        <item>Model and Make</item>
+        <item>Ford F-Series</item>
+        <item>Chevy Silverado</item>
+        <item>Toyota RAV4</item>
+        <item>Toyota Camry</item>
+        <item>Land Rover Range Rover</item>
+        <item>Nissan Leaf</item>
+        <item>Toyota Tacoma</item>
+        <item>Tesla Model Y</item>
+        <item>Jeep Grand Cherokee</item>
+
     </string-array>
 
     <string-array name="miles1">
         <item>Miles</item>
-        <item> """&lt;""" 2000</item>
+        <item>Less than 2000</item>
         <item>2,000 - 5,0000</item>
         <item>5,0000 – 10, 0000</item>
-        <item>""">""" 10,000</item>
+        <item>More than 10,000</item>
     </string-array>
 
 </resources>

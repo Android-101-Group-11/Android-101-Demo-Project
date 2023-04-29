@@ -13,13 +13,13 @@
         android:id="@+id/co2e"
         android:layout_width="229dp"
         android:layout_height="53dp"
-        android:layout_marginTop="80dp"
-        android:text="CO2 Emissions"
+        android:layout_marginTop="24dp"
+        android:text=" "
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <TextView
         android:id="@+id/suggestions"
@@ -31,51 +31,50 @@
         android:layout_marginBottom="-200dp"
         android:fontFamily="@font/montserrat_light"
         android:text="Suggestions"
-
-<<<<<<< Updated upstream
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="409dp"
-        android:layout_height="546dp"
-        android:fillViewport="true"
-        app:layout_constraintBottom_toTopOf="@+id/button1"
-        app:layout_constraintTop_toBottomOf="@id/co2e"
-        app:layout_constraintStart_toStartOf="parent"
-
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="78dp">
-
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:orientation="vertical" />-->
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/car_list"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"/>
-    </androidx.core.widget.NestedScrollView>
-
-=======
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/co2e"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/co2e" />
+        app:layout_constraintTop_toBottomOf="@+id/co2e"
+        app:layout_constraintVertical_bias="0.577" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="317dp"
+        android:layout_height="439dp"
+        android:layout_marginStart="48dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@id/estimate"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@id/co2e"
+        app:layout_constraintVertical_bias="0.615">
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="vertical" />-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/car_list"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </androidx.core.widget.NestedScrollView>
 
     <Button
         android:id="@+id/estimate"
-        android:layout_width="164dp"
-        android:layout_height="48dp"
+        android:layout_width="307dp"
+        android:layout_height="50dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="608dp"
         android:layout_marginEnd="32dp"
-        android:text="Estimation"
         android:backgroundTint="#0A453D"
-        android:textStyle="bold"
+        android:drawableLeft="@drawable/whiteicon"
         android:fontFamily="@font/montserrat_light"
+        android:text="Search"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
->>>>>>> Stashed changes
+
 </androidx.constraintlayout.widget.ConstraintLayout>

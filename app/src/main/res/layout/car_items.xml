@@ -2,42 +2,49 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="250dp"
+    android:layout_height="300dp"
 
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
     <TextView
+
         android:id="@+id/car_make"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        app:layout_constraintStart_toStartOf="parent"
+        style="@style/carStyling"
+        android:layout_marginTop="64dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/car_emission"
         android:layout_width="200dp"
+        style="@style/carStyling"
         android:layout_height="50dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="@id/car_make"
-        app:layout_constraintTop_toBottomOf="@id/car_year"
-        tools:layout_editor_absoluteX="208dp" />
+        app:layout_constraintTop_toBottomOf="@id/car_year" />
 
     <TextView
         android:id="@+id/car_model"
         android:layout_width="200dp"
         android:layout_height="50dp"
+        style="@style/carStyling"
+        android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="@id/car_make"
-        app:layout_constraintTop_toBottomOf="@id/car_make"
-        tools:layout_editor_absoluteX="208dp" />
+        app:layout_constraintTop_toBottomOf="@id/car_make" />
 
     <TextView
         android:id="@+id/car_year"
         android:layout_width="200dp"
         android:layout_height="50dp"
+        style="@style/carStyling"
+        android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="@id/car_make"
-        app:layout_constraintTop_toBottomOf="@id/car_model"
-        tools:layout_editor_absoluteX="208dp" />
+        app:layout_constraintTop_toBottomOf="@id/car_model" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

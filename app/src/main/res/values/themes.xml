@@ -15,4 +15,31 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name = "ButtonActivity2">
+        <item name = "android:layout_height">48dp</item>
+        <item name = "android:fontFamily">@font/montserrat_light</item>
+        <item name = "android:backgroundTint">#0A453D</item>
+    </style>
+
+    <style name = "SpinnerCustom">
+        <item name = "android:layout_marginStart">32dp</item>
+        <item name = "android:layout_marginTop">32dp</item>
+        <item name = "android:layout_marginEnd">32dp</item>
+    </style>
+
+
+    <style name = "CustomTextView">
+        <item name = "android:fontFamily">@font/montserrat_light </item>
+        <item name = "android:layout_marginStart">32dp</item>
+        <item name = "android:layout_marginTop">32dp</item>
+        <item name = "android:layout_marginEnd">32dp</item>
+        <item name = "android:textStyle">bold</item>
+    </style>
+
+
+    <style name = "carStyling">
+        <item name = "android:fontFamily">@font/montserrat_light</item>
+        <item name = "android:textStyle">bold</item>
+    </style>
 </resources>
