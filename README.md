@@ -12,6 +12,8 @@ Time spent: **90** hours spent in total
 
 This document provides a summary of our project building process for our app, **Carbonator**
 
+Did you know the average American drives about 14, 263 miles per year? This app helps users learn more about the quantity of carbon emissions from certain cars. The first page shows a view with the top 10 selling cars in the United States, if these cars were driven 15,000 miles annually. The second page allows users to calculate
+
 ## Milestone Requirements
 
 The following REQUIRED features are completed:
