@@ -37,7 +37,9 @@ The following REQUIRED files are included:
 
 Here's a video that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+[![Now in Android: 55]          // Title
+(https://i.ytimg.com/vi/Hc79sDi3f0U/maxresdefault.jpg)] // Thumbnail
+([https://www.youtube.com/watch?v=Hc79sDi3f0U](https://www.youtube.com/watch?v=qtJPy8s9TdA) )    // Video Link
 
 Gif created with **your chosen video tool**
 
