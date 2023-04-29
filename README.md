@@ -39,6 +39,7 @@ Here's a video that demos all of the app's implemented features:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qtJPy8s9TdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+.
 Gif created with **your chosen video tool**
 
 Here's a video that demos all of the app's implemented features:
